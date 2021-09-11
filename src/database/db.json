@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "name": "Mahip Patni",
+      "userName": "mahip-patni2310",
+      "email": "mahippatni@gmail.com",
+      "phone": "09871228704",
+      "website": "yahoo.com",
+      "DOB": "23-10-2001",
+      "age": "19",
+      "id": 1
+    },
+    {
+      "name": "kailash patni",
+      "userName": "kailashe3142",
+      "email": "kailash_patni@yahoo.com",
+      "phone": "8274918468",
+      "website": "gmail.com",
+      "DOB": "1999-10-23",
+      "age": "22",
+      "id": 2
+    },
+    {
+      "name": "Anushruti Sharma",
+      "userName": "anuSharma10",
+      "email": "anu_sharma2001@gmail.com",
+      "phone": "4535676549",
+      "website": "instagram.com",
+      "DOB": "2001-12-24",
+      "age": "19",
+      "id": 3
+    }
+  ]
+}

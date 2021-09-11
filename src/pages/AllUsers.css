@@ -1,0 +1,35 @@
+.allusers {
+  margin: 40px auto;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgb(70, 70, 70);
+  border-radius: 10px;
+}
+
+.allusers_btn {
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+}
+
+.allusers_edit_btn {
+  background-color: rgb(0, 139, 163);
+}
+
+.allusers_edit_btn:hover {
+  background-color: rgb(148, 207, 218);
+  color: black;
+}
+
+.allusers_remove_btn {
+  background-color: red;
+}
+
+.allusers_remove_btn:hover {
+  background-color: rgb(255, 175, 175);
+  color: black;
+}

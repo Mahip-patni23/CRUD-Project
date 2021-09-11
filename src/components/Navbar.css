@@ -1,0 +1,117 @@
+nav {
+  width: 100%;
+  background: white;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.nav-header > h2 {
+  text-shadow: 2px 2px 5px rgb(139, 139, 139);
+  font-size: 1.8rem;
+}
+
+.nav-header > h2 > span {
+  color: rgb(13, 112, 158);
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  color: hsl(205, 78%, 60%);
+  background: transparent;
+  border-color: transparent;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: hsl(205, 86%, 17%);
+  transform: rotate(90deg);
+}
+
+.links > li {
+  list-style-type: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s linear;
+  font-weight: 600;
+}
+.links a:hover {
+  background-color: rgb(209, 238, 255);
+  color: hsl(205, 89%, 48%);
+}
+.social-icons {
+  display: none;
+}
+.links-container {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+.show-container {
+  height: 10rem;
+}
+@media screen and (min-width: 800px) {
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links-container {
+    height: auto !important;
+  }
+  .links {
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 1rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+  .social-icons {
+    display: flex;
+  }
+
+  .social-icons li {
+    list-style-type: none;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    margin: 0 0.5rem;
+    color: rgb(0, 183, 255);
+    transition: all 0.3s linear;
+  }
+  .social-icons a:hover {
+    color: rgb(124, 189, 214);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav-header > h2 {
+    font-size: 1.2rem;
+  }
+}
