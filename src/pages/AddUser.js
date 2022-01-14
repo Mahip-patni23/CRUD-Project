@@ -61,7 +61,7 @@ function AddUser() {
           <input type="number" placeholder="Your Age" name="age" value={age} onChange={onValueChange}/>
         </div>
       </form>
-      <button className="addUserButton" onClick={() => addUserDetails(user)}>Add User</button>
+      <button className="addUserButton" onClick={() => addUserDetails(user)}>Create User</button>
     </div>
     )
 }

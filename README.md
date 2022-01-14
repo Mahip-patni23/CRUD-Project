@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## You can create your own json file to save data as well as perform operations in it using json-server.
+
+Step 1- We first need create a database for json file i.e. db.json.
+
+## To create a json-server we first need to install it using npm (npm install json-server).
+
+Step 2- Now to run our json server , we first need to include it in our scripts tag in package.json. Now the default port for json server
+        is port 3000 in which our app is already running. So to change the port, we need give command --host 127.0.0.1 --port 3003 or whichever port you want your json server to run.
+
+## Now both the server i.e our app as well as our json server are running on different ports. So basically we need them to run concurrently . 
+
+Step 3- Now to run them concurrently , we need to include a command to run both of them together with a single command in scripts. So we need 
+to  install concurrently using npm which can run multiple commands concurrently.

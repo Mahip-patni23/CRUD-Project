@@ -7,7 +7,7 @@ function Chart({title, data, dataKey, grid, dataKeyNext}) {
     return (
         <div className="chart">
             <h3 className="chart_title">{title}</h3>
-            <ResponsiveContainer width="100%" aspect={3 / 1}>
+            <ResponsiveContainer width="100%" aspect={4 / 1}>
                 <LineChart data={data}>
                     <XAxis dataKey="name" stroke="black"></XAxis>
                     <YAxis stroke="black"></YAxis>

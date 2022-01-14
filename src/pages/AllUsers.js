@@ -76,6 +76,7 @@ function AllUsers() {
         pageSize={6}
         checkboxSelection
         disableSelectionOnClick
+        pagination
       />
         </div>
     )

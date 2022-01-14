@@ -28,7 +28,7 @@ const Navbar = () => {
     <nav>
       <div className='nav-center'>
         <div className='nav-header'>
-          <h2>Nemesis <span>Consultants</span></h2>
+          <h2>CRUD <span>APPLICATION</span></h2>
           <button className='nav-toggle' onClick={toggleLinks}>
             <MenuIcon></MenuIcon>
           </button>
